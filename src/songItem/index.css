@@ -1,0 +1,43 @@
+.list-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.image-and-genre {
+  display: flex;
+  align-items: center;
+}
+.image {
+  height: 120px;
+  width: 180px;
+}
+.song-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.song-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.song-genre {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #3b82f6;
+  font-weight: 400;
+}
+.delete-and-duration {
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-right: 50px;
+}
